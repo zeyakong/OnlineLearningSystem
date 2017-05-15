@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="缓存"
+        android:id="@+id/action_download"
+        android:icon="@drawable/ic_download"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+
+    <item
+        android:title="search"
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_action_search"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+</menu>

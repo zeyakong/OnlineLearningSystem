@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="background">#e2ecf5</color>
+    <color name="bili_color_item_select">#66666666</color>
+    <color name="bili_color_light_gray">#F2F2F2</color>
+</resources>

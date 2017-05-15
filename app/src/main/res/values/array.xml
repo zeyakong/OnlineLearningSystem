@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="languages">
+        <item>中国大陆</item>
+        <item>其他区域</item>
+    </string-array>
+
+    <string-array name="question">
+        <item>无</item>
+        <item>选择题</item>
+        <item>填空题</item>
+        <item>简答题</item>
+    </string-array>
+</resources>

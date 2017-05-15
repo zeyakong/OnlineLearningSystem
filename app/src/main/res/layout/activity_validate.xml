@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_validate"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:theme="@style/AppTheme.AppBarOverlay"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/background"
+    tools:context="com.example.administrator.testui7.Activity.ValidateActivity"
+    >
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_validate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:theme="@style/Theme.Design.Light"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        >
+        <TextView
+            android:text="验证码已发到以下手机，请在5分钟内完成注册"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            />
+        <TextView
+            android:text="phone"
+            android:id="@+id/tv_phone"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:inputType="number"
+            android:hint="请输入验证码"
+            android:gravity="center"
+            android:id="@+id/et_validate" />
+
+        <Button
+            android:text="下一步"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:enabled="false"
+            android:id="@+id/btn_next" />
+    </LinearLayout>
+</LinearLayout>
