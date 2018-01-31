@@ -21,3 +21,5 @@ Alipay or wechat Pay.
 ![](https://github.com/Kong96/OnlineLearningSystem/blob/master/ezgif-1-3637c952b1.gif)  
 #### Payment   
 ![](https://github.com/Kong96/OnlineLearningSystem/blob/master/ezgif-1-855a5d170f.gif)
+## Next Demo  
+For some reasons. I can't submit the final demo into public.
