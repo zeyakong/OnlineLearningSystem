@@ -10,7 +10,7 @@ Login ,Sign up, Text register....
 ### 3. Payment Functions  
 Alipay or wechat Pay.  
 ## Real Phone Test  
-  After testing on the HUAWEI glory 6, according to the design of the relevant documents and information, the system has completed most of the functions required by the system. Functions on the mobile terminal screenshot shown as following：  
+  After testing on the HUAWEI glory 6, according to the design of the relevant documents and information, the system has completed most of the required functionalities. Functions on the mobile terminal screenshot shown as following：  
 #### Sign in1  
 ![](https://github.com/Kong96/OnlineLearningSystem/blob/master/ezgif-1-44cea1b999.gif)
 #### Sign in2  
